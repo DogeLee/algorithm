@@ -6,6 +6,7 @@
 对于每个测试实例，请输出不同走法的数量。
 思路：
 这是一个动态规划问题，需要把问题拆分为子问题，利用递归的思想得到答案。
+(resultArr[i] = resultArr[i-1] + resultArr[i-2] 这样的数列叫做斐波拉契数列)
 */
 const readline = require('readline')
 const rl = readline.createInterface({
